@@ -1,0 +1,44 @@
+.main_jumbotron {
+    background-image: url('../../images/jumbotron.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #adc1de;
+    height: 30rem;
+}
+
+.main_jumbotron h1 {
+    text-align: right;
+    font-size: 5em;
+}
+
+.main_jumbotron p {
+
+    text-align: right;
+    font-size: 2em;
+    line-height: 6em;
+
+}
+
+.jumbo {
+    font-size: 16px;
+}
+
+@media (max-width: 995px) {
+    .jumbo {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 770px) {
+    .jumbo {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 580px) {
+    .jumbo {
+        font-size: 8px;
+        padding-top: 30px;
+    }
+}

@@ -1,0 +1,125 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+#MovieOfTheDay {
+  margin: 80px auto;
+}
+
+.title_day {
+  animation: pulse linear 8s infinite alternate,
+  colorchange 8s infinite alternate;
+  min-height: 80px;
+  text-align: center;
+  color: rgba(152, 20, 20, 1);
+}
+
+@keyframes pulse {
+  0% {
+    font-size: 100%
+  }
+  50% {
+    font-size: 200%
+  }
+  100% {
+    font-size: 400%
+  }
+}
+
+@keyframes colorchange {
+  0% {
+
+    color: #f8f9f9;
+  }
+
+  10% {
+
+    color: #ebedee;
+  }
+
+  20% {
+
+    color: #dee1e3;
+  }
+
+  30% {
+
+    color: #cfd3d6;
+  }
+
+  40% {
+
+    color: #bec4c8;
+  }
+
+  50% {
+
+    color: #acb4b9;
+  }
+
+  60% {
+
+    color: #97a1a7;
+  }
+
+  70% {
+
+    color: #7f8a93;
+  }
+
+  80% {
+
+    color: #5f6e78;
+  }
+
+  90% {
+
+    color: #374047;
+  }
+
+  100% {
+
+    color: #171B22;
+  }
+}
+
+.main_day {
+  display: flex;
+  font-weight: bold;
+  color: rgb(197, 179, 88)
+}
+
+.main_day_left {
+  h2 {
+    max-width: 80%;
+    font-size: 45px;
+  }
+  p {
+    max-width: 80%;
+  }
+  span {
+    color: rgb(153,101,21)
+  }
+}
+
+@media (max-width: 992px) {
+  .main_day {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.main_day_left {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+
+  p {
+    font-size: 22px;
+  }
+
+}

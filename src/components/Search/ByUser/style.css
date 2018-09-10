@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+.main_User {
+  margin-top: 150px; }
+  .main_User h2 {
+    margin: 16px;
+    text-align: center;
+    font-size: 80px;
+    font-weight: bold;
+    color: silver; }
+
+.main_userSearch {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  color: darkgoldenrod;
+  margin-top: 10px; }
+
+.single_element {
+  display: flex;
+  width: 330px;
+  justify-content: center;
+  margin: 10px;
+  align-items: center;
+  border: 1px dotted darkgoldenrod; }
+
+.single_element_child {
+  width: 100%;
+  text-align: center; }
+  .single_element_child h3 {
+    text-align: center; }
+
+.last_element {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 400px;
+  width: 100%; }

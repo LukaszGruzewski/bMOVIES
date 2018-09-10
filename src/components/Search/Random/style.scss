@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.main_random {
+  margin: 150px 0 50px 0;
+  h2 {
+    margin: 16px;
+    text-align: center;
+    font-size: 80px;
+    font-weight: bold;
+    color: rgb(192, 192, 192);
+    text-transform: uppercase;
+  }
+}
+
+.rand {
+  display: flex;
+  padding: 50px;
+
+}
+
+.rand_film {
+  font-size: 26px;
+  margin-left: 0;
+  background: white;
+  width: 100%;
+  text-align: center;
+}
+
+@media (max-width: 530px) {
+  .main_random {
+    h2{
+      font-size: 50px;
+    }
+  }
+}
